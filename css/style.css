@@ -60,7 +60,7 @@ section{
     display: grid;
     padding:6rem ;
     background-color: var(--accent-color3);
-    background-image:url(assets/images/background-1.jpg);
+background-image: url(/assets/images/background-1.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     grid-template-columns: repeat(4,1fr);
