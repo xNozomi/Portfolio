@@ -50,7 +50,7 @@ background-color: var(--accent-color3);
 text-decoration: none;
 }
 .overlay{
-    border-image:fill 1 linear-gradient(#06D6A055, #06D6A055);
+    /*border-image:fill 1 linear-gradient(#06D6A055, #06D6A055);*/
     
 }
 section{
@@ -59,8 +59,8 @@ section{
 .hero{
     display: grid;
     padding:6rem ;
-    background-color: var(--accent-color3);
-    background-image: url(/assets/images/background-1.jpg);
+    background-color: var(--accent-color);
+    /*background-image: url(/assets/images/background-1.jpg);*/
     background-repeat:no-repeat;
     background-size:cover;
     grid-template-columns: repeat(4,1fr);
