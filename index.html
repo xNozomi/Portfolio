@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumirai</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <nav> 
+        <div class="logo" style="grid-area: logo;">
+            <a href="#Home">Accueil</a></div>
+        <ul class="nav-grid" style="grid-area: nav;">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main class="hero overlay">
+        <h1 class="hero-title" style="grid-area: title">Développeur Web Freelance</h1>
+        <h2 class="hero-subtitle" style="grid-area: pres">Je conçois des sites web modernes, rapides et optimisés pour aider les entreprises à attirer plus de clients.</h2>
+        <button class="portfolio-button" style="grid-area: button1">Voir mes projets</button>
+        <button class="hero-contact-button" style="grid-area: button2">Me contacter</button>
+    </main>
+    <section id="services" >
+        <h2 class="subtitle" style="grid-area:title">Services</h2>
+        <div class="service-card vitrine" style="grid-area:service1">
+            <h3 class="service-title">Site vitrine professionnel</h3>
+            <p class="service-description">Présentez votre activité avec un site moderne, rapide et adapté aux mobiles. Idéal pour les indépendants, artisans et petites entreprises souhaitant gagner en visibilité en ligne.</p>
+            <ul class="service-list">
+                <li>Design moderne</li>
+                <li>Responsive/mobile</li>
+                <li>Formulaire de contact</li>
+                <li>SEO de base</li>
+            </ul>
+            <p class="price">à partir de 350€</p>
+        </div>
+        <div class="service-card landing" style="grid-area:service2">
+            <h3 class="service-title">Landing page de conversion</h3>
+            <p class="service-description">Une page claire et efficace conçue pour mettre en avant votre offre, récupérer des contacts et transformer vos visiteurs en clients.</p>
+            <ul class="service-list">
+                <li>Structure optimisée</li>
+                <li>Call-to-action efficace</li>
+                <li>Chargement rapide</li>
+                <li>Compatible mobile</li>
+            </ul>
+            <p class="price">à partir de 250€</p>
+        </div>
+        <div class="service-card refonte" style="grid-area:service3">
+            <h3 class="service-title">Refonte et modernisation</h3>
+            <p class="service-description">Modernisez votre ancien site avec un design plus professionnel, une meilleure expérience utilisateur et des performances améliorées.</p>
+            <ul class="service-list">
+                <li>Nouveau design</li>
+                <li>Optimisation mobile</li>
+                <li>Amélioration des performances</li>
+                <li>Expérience utilisateur modernisée</li>
+            </ul>
+            <p class="price">à partir de 500€</p>
+        </div>
+        <button class="contact-button" style="grid-area: button">Me contacter</button>
+    </section>
+    <section id="portfolio" >
+        <h2 class="subtitle" style="grid-area:title">Portfolio</h2>
+        <div class="portfolio-grid" style="grid-area:portfolio-grid">
+<div class="project">
+    <figure>
+        <a href="https://xnozomi.github.io/Plombier_website/">
+            <img src="assets/Capture portfolio/Plombier.PNG" alt="a changer">
+    <figcaption>
+ Site plombier</a>
+    </figcaption>
+</figure>
+<p class="project-description"></p>
+</div>
+<div class="project">
+    <figure>
+        <a href="https://xnozomi.github.io/Le-Gourmet/">
+            <img src="assets/Capture portfolio/Gourmet.PNG" alt="a changer">
+    <figcaption>
+        Site restaurant</a>
+    </figcaption>
+</figure>
+<p class="project-description"></p>
+</div>
+</div>
+    </section>
+    <section id="contact">
+        <h2 class="subtitle">Vous souhaitez parler de votre projet? Contactez-moi.</h2>
+        <form action="">
+            <label for="name">Nom</label>
+            <input type="text" name="name" id="name">
+            <label for="phone">Téléphone</label>
+            <input type="number" name="phone" id="phone">
+            <label for="mail">E-mail</label>
+            <input type="email" name="mail" id="mail">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Entrer votre message ici"></textarea>
+            <input type="submit" value="Envoyer" class="contact-form-button">
+        </form>
+    </section>
+</body>
+</html>
